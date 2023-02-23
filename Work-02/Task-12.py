@@ -14,8 +14,7 @@ y = 0
 s = int(input())
 p = int(input())
 for i in range(s):
-    if x < s:
-        y = s - x
-        if y*x != p:
-            x += 1
+    y = s - x
+    if y*x != p:
+        x += 1
 print(x, y, 'или', y, x)
