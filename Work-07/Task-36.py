@@ -16,5 +16,9 @@ print(text)
 text = tuple(map(lambda x: x.split(),
                  (map(lambda x: x.replace('=', ' '), text.split()))))
 
+# text = input().split()
+# result = tuple(map(lambda x: tuple(x.split("="), text)))
+# print(result)
+
 print(text)
 print(type(text))
